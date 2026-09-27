@@ -39,9 +39,20 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	object-fit: cover;
-    object-position: bottom;
 }
+
+.iimg__cover img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    filter: brightness(100%);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 1rem;
+}
+
 .profile-pic-small {
 	height: 100%;
 	width: 100%;

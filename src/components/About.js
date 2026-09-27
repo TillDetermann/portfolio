@@ -21,11 +21,14 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                        <p>I’m Peace, a Frontend Engineer focused on building scalable, user-centered web applications. </p>
+
+              
+                        <p>I'm a Computer Science graduate with expertise in modeling and optimizing complex systems in the renewable energy sector. </p>
                         <br />
-                        <p> My work involves building and maintaining production web applications, collaborating closely with cross-functional teams, and turning complex requirements into intuitive user experiences. I focus on performance, accessibility, and maintainability, ensuring products scale as they grow.</p>
+                        <p> I bring strong capabilities across full-stack development—proficient in both frontend and backend technologies—combined with specialized knowledge in AI agent development for retrieving and processing domain-specific information from complex knowledge bases.</p>
                         <br />
-                        <p>I bring a strong design sensibility to my engineering work, helping align visual intent with technical execution and creating experiences that work well across devices.</p>
+                        <p>My technical skill set emphasizes performance, system reliability, and scalable architecture. I have hands-on experience building production systems that handle intricate requirements while maintaining code quality and maintainability. An Erasmus year in Sweden expanded my technical and collaborative capabilities through international study and exposure to diverse development practices.
+I'm a proactive, self-driven learner continuously deepening my technical expertise across emerging technologies and analytical frameworks for real-world problem-solving.</p>
                     </motion.div>
                     <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
                         <img src={ProfileImg} alt="Profile" />

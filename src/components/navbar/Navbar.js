@@ -3,7 +3,7 @@ import { BiBookContent, BiEnvelope } from "react-icons/bi";
 import { FaHome, FaLaptop } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { Link } from "react-scroll";
-import ProfileImg from "../../images/profile_me.jpg";
+import ProfileImg from "../../images/profile_me_face.jpeg";
 import "../../styles/Navbar.css";
 import NavLinks from "./NavLinks";
 
@@ -54,7 +54,7 @@ const Navbar = ({ nav, handleNav }) => {
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
-							Peace Jinadu-Paul
+							Till Determann
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>
@@ -84,7 +84,7 @@ const Navbar = ({ nav, handleNav }) => {
 							<li className='mid-link' onClick={handleNav}>
 								About
 							</li>
-						</Link>
+						</Link>	
 						<Link
 							activeClass='active'
 							spy={true}
@@ -140,7 +140,7 @@ const Navbar = ({ nav, handleNav }) => {
 					</ul>
 					<div className='copy'>
 						<small className='copyright'>
-							© Copyright ©2022 | All rights reserved
+							© Copyright ©2026 | All rights reserved
 						</small>
 					</div>
 				</motion.div>

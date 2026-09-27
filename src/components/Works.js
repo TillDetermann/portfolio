@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../styles/Works.css";
 import { motion } from "framer-motion";
-import { ReactData, ReactNativeData, VueData } from "../data/WorkData";
+import { BodAsData, RenewableData, AiAgentData } from "../data/WorkData";
 import WorkCard from "./WorkCard";
 
 const Works = () => {
-	const [activeTab, setActiveTab] = useState("react");
+	const [activeTab, setActiveTab] = useState("bodas");
 
 	const fade = {
 		opacity: 1,
@@ -15,9 +15,9 @@ const Works = () => {
 	};
 
 	const tabData = [
-		{ id: "react", label: "React", data: ReactData },
-		{ id: "vue", label: "Vue", data: VueData },
-		{ id: "react-native", label: "React Native", data: ReactNativeData },
+		{ id: "bodas", label: "BodAs", data: BodAsData },
+		{ id: "renewable-native", label: "Renewable Stuff", data: RenewableData },
+		{ id: "ai-agent", label: "AI Agents", data: AiAgentData },
 	];
 
 	return (

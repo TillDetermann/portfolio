@@ -14,11 +14,12 @@ const Contact = () => {
 	};
 
 	const verticalLeft = {
-		opacity: 1,
-		y: 0,
-		transition: {
-			duration: 1.5,
-		},
+	opacity: 1,
+	y: 0,
+	transition: {
+		duration: 0.5,
+		ease: "easeOut",
+	},
 	};
 
 	const [formData, setFormData] = useState({
@@ -83,39 +84,33 @@ const Contact = () => {
 						initial={{ opacity: 0 }}
 						whileInView={fade}
 						viewport={{ once: true }}>
-						<p className='heading-sub-text'>Hire Me</p>
+						<p className='heading-sub-text'>Reach Out</p>
 						<p className='heading-text'>Get in Touch</p>
 					</motion.div>
 					<div className='contact-box'>
 						<motion.div
 							className='left-box'
-							initial={{ opacity: 0, y: "-50px" }}
+							initial={{ opacity: 0, y: "-30px" }}
 							whileInView={verticalLeft}>
 							<div className='contact-heading'>
-								<p>
-									Looking for a seasoned Front-End Engineer to lead your next big project? I specialize in building high-performance web experiences. Reach out for collaborations, consulting, or just to say hello.
-								</p>
+							<p>
+								Whether you're looking for a full-stack developer, AI expertise, or someone passionate about renewable energy—I'd love to hear from you. Let's explore opportunities together.
+							</p>
 							</div>
 							<div className='contact-hello'>
 								<p>Say Hello</p>
-								<Link
-									className='hello-links'
-									to='//wa.me/+2348060860565'
-									target='_blank'>
-									wa.me/pappyjay23
-								</Link>
 								<a
 									className='hello-links'
-									href='mailto:pjinadu02@gmail.com'
+									href='mailto:till@determann.info'
 									target='_blank'
 									rel='noreferrer'>
-									pjinadu02@gmail.com
+									till@determann.info
 								</a>
 							</div>
 						</motion.div>
 						<motion.div
 							className='right-box'
-							initial={{ opacity: 0, y: "50px" }}
+							initial={{ opacity: 0, y: "30px" }}
 							whileInView={verticalLeft}>
 							<form
 								name='contact-form'

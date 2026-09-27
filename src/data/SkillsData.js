@@ -1,46 +1,55 @@
-import { DiJavascript1 } from "react-icons/di";
+
 import {
-	FaFigma,
-	FaReact
+	FaWindows,
+	FaApple,
+	FaLinux
 } from "react-icons/fa";
-import { RiVuejsLine } from "react-icons/ri";
+import { DiJava, DiWindows } from "react-icons/di";
 import {
-	SiFirebase,
-	SiFramer,
-	SiJest,
-	SiNextdotjs,
-	SiReactquery,
-	SiRedux,
-	SiStyledcomponents,
-	SiSupabase,
-	SiTailwindcss,
-	SiTypescript
+    SiMacos,
+    SiLinux,
+    SiSwift,
+    SiTypescript,
+    SiJavascript,
+    SiHtml5,
+    SiCsswizardry,
+    SiDotnet,
+    SiC,
+    SiOllama,
+    SiNodedotjs,
+    SiNpm,
+    SiAngular,
+    SiGit,
+    SiSvelte,
+    SiPython
 } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
-import Gsap from "../vectors/gsap";
+import { TbBrandCSharp } from "react-icons/tb";
+import { AiFillFileWord } from "react-icons/ai";
 
 export const SkillsData = [
-    // Core Tech (The "must-haves")
-    { name: "Javascript", icon: <DiJavascript1 /> },
-    { name: "TypeScript", icon: <SiTypescript /> },
-    { name: "React Js", icon: <FaReact /> },
-    { name: "Next Js", icon: <SiNextdotjs /> },
-    { name: "Vue Js", icon: <RiVuejsLine /> },
-    { name: "React Native", icon: <TbBrandReactNative /> },
+	// Digital Skills
+	{ name: "macOS", icon: <SiMacos />, category: "digital-skills" },
+	{ name: "Windows", icon: <DiWindows />, category: "digital-skills" },
+	{ name: "Linux", icon: <SiLinux />, category: "digital-skills" },
+	{ name: "Microsoft Office", icon: <AiFillFileWord />, category: "digital-skills" },
 
-    // Logic & Data
-    { name: "Redux", icon: <SiRedux /> },
-    { name: "React Query", icon: <SiReactquery /> },
-    { name: "Firebase", icon: <SiFirebase /> },
-    { name: "Supabase", icon: <SiSupabase /> },
+	// Programming Languages
+	{ name: "Python", icon: <SiPython />, category: "programming-languages" },
+	{ name: "Swift", icon: <SiSwift />, category: "programming-languages" },
+	{ name: "TypeScript", icon: <SiTypescript />, category: "programming-languages" },
+	{ name: "JavaScript", icon: <SiJavascript />, category: "programming-languages" },
+	{ name: "HTML", icon: <SiHtml5 />, category: "programming-languages" },
+	{ name: "CSS", icon: <SiCsswizardry />, category: "programming-languages" },
+	{ name: "C#", icon: <TbBrandCSharp />, category: "programming-languages" },
+	{ name: "C", icon: <SiC />, category: "programming-languages" },
+	{ name: "Java", icon: <DiJava />, category: "programming-languages" },
 
-    // Visuals & Motion
-    { name: "Tailwind", icon: <SiTailwindcss /> },
-    { name: "Styled Components", icon: <SiStyledcomponents /> },
-    { name: "Framer Motion", icon: <SiFramer /> },
-    { name: "GSAP", icon: <Gsap /> },
-
-    // Design & Engineering Quality
-    { name: "Jest", icon: <SiJest /> },
-    { name: "Figma", icon: <FaFigma /> },
+	// Tools/Frameworks
+	{ name: "Ollama", icon: <SiOllama />, category: "tools-frameworks" },
+	{ name: ".NET", icon: <SiDotnet />, category: "tools-frameworks" },
+	{ name: "Node.js", icon: <SiNodedotjs />, category: "tools-frameworks" },
+	{ name: "npm", icon: <SiNpm />, category: "tools-frameworks" },
+	{ name: "Angular", icon: <SiAngular />, category: "tools-frameworks" },
+	{ name: "Svelte", icon: <SiSvelte />, category: "tools-frameworks" },
+	{ name: "Git", icon: <SiGit />, category: "tools-frameworks" },
 ];

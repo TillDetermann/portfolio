@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
-import CV from "../data/Peace Jinadu-Paul Resume.pdf";
+import CV from "../data/CV_Till_Determann.pdf";
 import { HiOutlineDocumentText } from "react-icons/hi";
 
 const HeroSection = ({ nav, handleNav }) => {
@@ -77,7 +77,7 @@ const HeroSection = ({ nav, handleNav }) => {
 				initial='hidden'
 				whileInView='visible'
 				onClick={handleNav}
-				className='menu-icon'>
+				className={nav ? 'menu-icon active' : 'menu-icon'} >
 				{nav ? <FaTimes /> : <FaBars />}
 			</motion.div>
 			<motion.div
@@ -94,10 +94,10 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					<span>Peace</span> <span>Jinadu-Paul.</span>
+					<span>Till</span> <span>Determann</span>
 				</p>
 				<p className='hero-desc'>
-					I'm a <span className='hero-desc-sub'>Front End Engineer.</span>
+					A <span className='hero-desc-sub'>Software Engineer</span>
 				</p>
 			</motion.div>
 			<motion.span
